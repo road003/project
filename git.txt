@@ -1,0 +1,63 @@
+git-scm  비트 맞게다운 
+
+접속
+git config --global user.name [아이디]
+git config --global user.email [본인이메일]
+
+접속
+git fetch 동기화 . 
+git clone https://github.com/road003/test.git
+
+
+git add git.txt
+
+
+git commit -m "기본설정"
+
+git push
+
+=======================================================
+
+
+//인터넷 나온 튜토리얼// 
+https://mrw0119.tistory.com/120 
+
+
+1. 이미 존재하는 Branch에 업로드
+
+  ① 깃 로그인 (본인아이디 / 이메일 사용)
+
+  ② 깃 최신화하기(=동기화) (★필수★)   
+    - git fetch
+
+  ③ 브랜치 목록확인
+    - git branch -r
+
+  ④ 사용할 브랜치 선택
+    - git checkout 20201104
+
+  ⑤ 깃에 업로드할 파일 선택 (예시 : 폴더이름이 '연습'입니다.)
+    - git add 연습
+
+  ⑥ 업로드할 파일/폴더에 대한 설명을 입력
+    - git commit -m "파일에 대한 설명을 써주세요"
+
+  ⑦ 지금까지 입력한 내용들을 깃에 업로드(마지막)
+    - git push origin 20201104
+
+  ⑧ 끝~
+
+
+2. 브랜치를 생성한 후, 업로드
+  ① 브렌치 생성 + 사용
+     - git checkout -b 사용할 브렌치이름 (브렌치 이름 띄어쓰기 불가능)
+
+  ② 기존의 브렌치 사용
+     - git checkout 브렌치 이름 
+
+  ③ 사용하고 있는 브렌치 확인 + 존재하는 브렌치 목록 확인
+     - git branch 
+       (사용하고 있는 중인 브렌치는 앞에 * 이 붙는다.
+
+  ④ 지금까지 입력한 내용들을 깃에 업로드(마지막)
+    - git push origin 20201104
