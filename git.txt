@@ -61,3 +61,6 @@ https://mrw0119.tistory.com/120
 
   ④ 지금까지 입력한 내용들을 깃에 업로드(마지막)
     - git push origin 20201104
+    
+    
+    https://victorydntmd.tistory.com/91
